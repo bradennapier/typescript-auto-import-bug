@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "include": ["./**/*.ts"],
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "../../../dist/packages/two"
+  },
+  "references": [
+    {
+      "path": "../one"
+    }
+  ]
+}

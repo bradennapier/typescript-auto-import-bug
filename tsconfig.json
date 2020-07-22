@@ -1,0 +1,12 @@
+{
+  "include": [],
+  "files": [],
+  "references": [
+    {
+     "path": "./src/packages/one"
+    },
+    {
+     "path": "./src/packages/two"
+    }
+  ]
+}

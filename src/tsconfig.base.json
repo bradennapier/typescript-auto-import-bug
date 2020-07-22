@@ -1,0 +1,16 @@
+{
+  "files": [],
+  "include": [],
+  "exclude": ["node_modules", "dist"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "composite": true,
+    "incremental": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "paths": {
+      "packages/*": ["packages/*"]
+    }
+  }
+}
