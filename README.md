@@ -5,4 +5,10 @@
 
 ## Image
 
+### Failure One
+
 ![example](./docs/image.png)
+
+### Failure Two
+
+![example](./docs/image2.png)
