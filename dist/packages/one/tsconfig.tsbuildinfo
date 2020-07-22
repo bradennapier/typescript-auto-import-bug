@@ -156,9 +156,14 @@
         "signature": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
         "affectsGlobalScope": true
       },
+      "../../../src/packages/one/another.ts": {
+        "version": "f0b3d1d4267d57df7db2c24f58fc92c89a84dc9176bbe4d3bb1f9b4fa50310e7",
+        "signature": "cd3f3632aa17b3278b378c8b58b536fece235f83c7f3d48eeb0ce4619b107dd1",
+        "affectsGlobalScope": false
+      },
       "../../../src/packages/one/index.ts": {
-        "version": "d66e8087f161e7ead63dd7702d123968f413bbe51d143b7234ca87eb6a5352f1",
-        "signature": "ef13144644993de793ea8101aa8011978ef3b020a64e51b721e090c419cbd511",
+        "version": "1cdd5fe53ab38be23be5ddae0c525a7cc4139b99da3331e31dc792ecb7208161",
+        "signature": "2d6638d2bf5915aa2a8b0482f92831ddb58e48ca2aa6338bfc8646835da594a4",
         "affectsGlobalScope": false
       },
       "../../../../node_modules/@types/node/globals.d.ts": {
@@ -445,10 +450,11 @@
       "declarationMap": true,
       "sourceMap": true,
       "paths": {
-        "*": [
-          "packages/*"
+        "packages/*": [
+          "./packages/*"
         ]
       },
+      "rootDir": "../../../src/packages/one",
       "outDir": "./",
       "configFilePath": "../../../src/packages/one/tsconfig.json"
     },
@@ -1079,11 +1085,18 @@
         "../../../../node_modules/@types/node/ts3.2/util.d.ts",
         "../../../../node_modules/@types/node/util.d.ts"
       ],
-      "../../../src/packages/one/index.ts": [
+      "../../../src/packages/one/another.ts": [
         "../../../../node_modules/@types/node/fs.d.ts",
         "../../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../../node_modules/@types/node/ts3.2/util.d.ts",
         "../../../../node_modules/@types/node/util.d.ts"
+      ],
+      "../../../src/packages/one/index.ts": [
+        "../../../../node_modules/@types/node/fs.d.ts",
+        "../../../../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../../../../node_modules/@types/node/ts3.2/util.d.ts",
+        "../../../../node_modules/@types/node/util.d.ts",
+        "../../../src/packages/one/another.ts"
       ]
     },
     "exportedModulesMap": {
@@ -1712,6 +1725,9 @@
         "../../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../../node_modules/@types/node/ts3.2/util.d.ts",
         "../../../../node_modules/@types/node/util.d.ts"
+      ],
+      "../../../src/packages/one/index.ts": [
+        "../../../src/packages/one/another.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [
@@ -1801,6 +1817,7 @@
       "../../../node_modules/typescript/lib/lib.esnext.intl.d.ts",
       "../../../node_modules/typescript/lib/lib.scripthost.d.ts",
       "../../../node_modules/typescript/lib/lib.webworker.importscripts.d.ts",
+      "../../../src/packages/one/another.ts",
       "../../../src/packages/one/index.ts"
     ]
   },
