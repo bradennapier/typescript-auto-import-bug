@@ -1,6 +1,8 @@
 {
   "include": [],
   "files": [],
+  // try to ignore dist - nothing matters 
+  "exclude": ["node_modules", "dist", "**/dist", "**/dist/**"],
   "references": [
     {
      "path": "./src/packages/one"
