@@ -1,6 +1,7 @@
 {
   "files": [],
   "include": [],
+  // try to ignore dist - nothing matters 
   "exclude": ["node_modules", "dist", "**/dist", "**/dist/**"],
   "compilerOptions": {
     "baseUrl": ".",
@@ -9,6 +10,7 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
+    "sourceRoot": ".",
     "paths": {
       "packages/*": ["./packages/*"]
     }

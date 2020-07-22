@@ -162,8 +162,8 @@
         "affectsGlobalScope": false
       },
       "../../../src/packages/one/index.ts": {
-        "version": "1cdd5fe53ab38be23be5ddae0c525a7cc4139b99da3331e31dc792ecb7208161",
-        "signature": "2d6638d2bf5915aa2a8b0482f92831ddb58e48ca2aa6338bfc8646835da594a4",
+        "version": "df08548ed7d332d5330931471c92e2e0246ea3fa7807eb2e4a39eba74c6602ee",
+        "signature": "f36a240393e35b396ba1a998a7f284f5896318a1a82e963dac4cc7767e38e737",
         "affectsGlobalScope": false
       },
       "../../../../node_modules/@types/node/globals.d.ts": {
@@ -449,6 +449,7 @@
       "declaration": true,
       "declarationMap": true,
       "sourceMap": true,
+      "sourceRoot": ".",
       "paths": {
         "packages/*": [
           "./packages/*"
@@ -1725,9 +1726,6 @@
         "../../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../../node_modules/@types/node/ts3.2/util.d.ts",
         "../../../../node_modules/@types/node/util.d.ts"
-      ],
-      "../../../src/packages/one/index.ts": [
-        "../../../src/packages/one/another.ts"
       ]
     },
     "semanticDiagnosticsPerFile": [

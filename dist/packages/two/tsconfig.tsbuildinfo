@@ -156,18 +156,13 @@
         "signature": "89bf2b7a601b73ea4311eda9c41f86a58994fec1bee3b87c4a14d68d9adcdcbd",
         "affectsGlobalScope": true
       },
-      "../one/another.d.ts": {
-        "version": "cd3f3632aa17b3278b378c8b58b536fece235f83c7f3d48eeb0ce4619b107dd1",
-        "signature": "cd3f3632aa17b3278b378c8b58b536fece235f83c7f3d48eeb0ce4619b107dd1",
-        "affectsGlobalScope": false
-      },
       "../one/index.d.ts": {
-        "version": "2d6638d2bf5915aa2a8b0482f92831ddb58e48ca2aa6338bfc8646835da594a4",
-        "signature": "2d6638d2bf5915aa2a8b0482f92831ddb58e48ca2aa6338bfc8646835da594a4",
+        "version": "f36a240393e35b396ba1a998a7f284f5896318a1a82e963dac4cc7767e38e737",
+        "signature": "f36a240393e35b396ba1a998a7f284f5896318a1a82e963dac4cc7767e38e737",
         "affectsGlobalScope": false
       },
       "../../../src/packages/two/index.ts": {
-        "version": "a793dd7788c45638b2272e3f56b4ca9b40fba3a5c75c4a101238248894ff8701",
+        "version": "f7e29f4910ed962323e038708da8fdb8b62d4a2f8532f39002f336a158c104ef",
         "signature": "f667f6b1d66ba55f0dcd27f5ff050063fecfe289bad00e8c5d48344a775c1439",
         "affectsGlobalScope": false
       },
@@ -454,6 +449,7 @@
       "declaration": true,
       "declarationMap": true,
       "sourceMap": true,
+      "sourceRoot": ".",
       "paths": {
         "packages/*": [
           "./packages/*"
@@ -904,18 +900,11 @@
         "../../../../node_modules/@types/node/ts3.7/index.d.ts",
         "../../../../node_modules/@types/node/util.d.ts"
       ],
-      "../one/another.d.ts": [
-        "../../../../node_modules/@types/node/fs.d.ts",
-        "../../../../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../../../../node_modules/@types/node/ts3.2/util.d.ts",
-        "../../../../node_modules/@types/node/util.d.ts"
-      ],
       "../one/index.d.ts": [
         "../../../../node_modules/@types/node/fs.d.ts",
         "../../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../../node_modules/@types/node/ts3.2/util.d.ts",
-        "../../../../node_modules/@types/node/util.d.ts",
-        "../one/another.d.ts"
+        "../../../../node_modules/@types/node/util.d.ts"
       ],
       "../../../node_modules/typescript/lib/lib.d.ts": [
         "../../../../node_modules/@types/node/fs.d.ts",
@@ -1552,18 +1541,11 @@
         "../../../../node_modules/@types/node/ts3.7/index.d.ts",
         "../../../../node_modules/@types/node/util.d.ts"
       ],
-      "../one/another.d.ts": [
-        "../../../../node_modules/@types/node/fs.d.ts",
-        "../../../../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../../../../node_modules/@types/node/ts3.2/util.d.ts",
-        "../../../../node_modules/@types/node/util.d.ts"
-      ],
       "../one/index.d.ts": [
         "../../../../node_modules/@types/node/fs.d.ts",
         "../../../../node_modules/@types/node/ts3.2/fs.d.ts",
         "../../../../node_modules/@types/node/ts3.2/util.d.ts",
-        "../../../../node_modules/@types/node/util.d.ts",
-        "../one/another.d.ts"
+        "../../../../node_modules/@types/node/util.d.ts"
       ],
       "../../../node_modules/typescript/lib/lib.d.ts": [
         "../../../../node_modules/@types/node/fs.d.ts",
@@ -1808,7 +1790,6 @@
       "../../../../node_modules/@types/node/worker_threads.d.ts",
       "../../../../node_modules/@types/node/zlib.d.ts",
       "../../../../node_modules/@types/responselike/index.d.ts",
-      "../one/another.d.ts",
       "../one/index.d.ts",
       "../../../node_modules/typescript/lib/lib.d.ts",
       "../../../node_modules/typescript/lib/lib.dom.d.ts",

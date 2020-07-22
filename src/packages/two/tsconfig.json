@@ -5,7 +5,8 @@
   "exclude": ["node_modules", "dist", "**/dist", "**/dist/**"],
   "compilerOptions": {
     "rootDir": ".",
-    "outDir": "../../../dist/packages/two"
+    "outDir": "../../../dist/packages/two",
+    "sourceRoot": "."
   },
   "references": [
     {

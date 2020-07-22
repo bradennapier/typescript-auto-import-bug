@@ -1,4 +1,3 @@
-export * from './another';
 export declare const ONE: {
     one: number;
 };
