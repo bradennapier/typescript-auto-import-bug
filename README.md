@@ -7,8 +7,12 @@
 
 ### Failure One
 
+- from ./src/packages/two/index.ts
+
 ![example](./docs/image.png)
 
 ### Failure Two
+
+- from ./src/packages/two/index.ts
 
 ![example](./docs/image2.png)
